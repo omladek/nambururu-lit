@@ -1,0 +1,35 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text eol=lf
+
+###############################################################################
+# behavior for font files
+#
+# treat font files as binary
+###############################################################################
+*.eot   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary
+
+###############################################################################
+# behavior for images
+#
+# treat image files as binary
+###############################################################################
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif binary
+*.ico binary
+
+# treat tgz files as binary
+###############################################################################
+*.tgz binary
+
+###############################################################################
+# github code distribution
+# read more: https://medium.com/productboard-engineering/one-yarn-to-rule-them-all-2d950127ee6f
+###############################################################################
+.yarn/releases/*.js linguist-vendored
